@@ -27,7 +27,7 @@ html {
 
 /* Body */
 body {
-  background-image: url(https://cdn.discordapp.com/attachments/1303776114493100123/1439315684222828866/background_pattern.webp?ex=691a12b0&is=6918c130&hm=0e04db90f5ab43f8a7c5aed5d2e689d73c824ca052793ab5de8f4b167db36f75&);
+  background-image: url(https://github.com/Psslayer1/site/blob/main/images/background%20pattern.webp?raw=true);
   background-size: contain;
   background-attachment: fixed;
   background-repeat: repeat;
@@ -503,3 +503,4 @@ body.light .overlay {
     transform: none;
   }
 }
+
