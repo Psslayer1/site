@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>PSSLAYER Portfolio</title>
+  </head>
+  <body>
+    <canvas id="particles"></canvas>
+    <div class="overlay"></div>
+    <!-- Main Title -->
+    <h1 class="main-title" data-i18n="intro.title">PSSLAYER Portfolio</h1>
+
+    <!-- Header & Navigation -->
+    <header>
+      <img
+        class="logo"
+        id="logo"
+        src="images/simple4.png"
+        alt="psslayer logo"
+      />
+      <nav class="navigation">
+        <ul>
+          <li><a href="#aboutme" data-i18n="nav.about">About Me</a></li>
+          <li><a href="#mysocials" data-i18n="nav.social">Social Media</a></li>
+          <li><a href="#interests" data-i18n="nav.hobbies">My Hobbies</a></li>
+          <li><button id="langToggle">AR</button></li>
+          <li><button id="modeToggle">🌙</button></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- Who Am I Section -->
+    <h2 class="WHO" data-i18n="who.title">Who Am I?</h2>
+    <hr class="secondhr" />
+    <div class="intro-container">
+      <div class="intro-section">
+        <h2 class="intro1" data-i18n="intro.hi">Hi, I'm</h2>
+        <h2 class="intro2" data-i18n="intro.name">Moayyad AKA PSSLAYER</h2>
+        <h2 class="intro3" data-i18n="intro.desc">
+          Curious Soul | Graphic Designer | Content Creator | Languages Lover
+        </h2>
+      </div>
+      <img class="logoabout" src="images/simple4.png" alt="logo" />
+    </div>
+    <hr />
+
+    <!-- About Me Section -->
+    <section class="about" id="aboutme">
+      <h2 data-i18n="about.title">About Me</h2>
+      <div class="about-content">
+        <img src="images/logoooo.png" alt="Logo" class="about-logo" />
+        <p data-i18n="about.text">
+          Hi, I'm Moayyad, a 17 yo Palestinian with so many interests. I'm
+          passionate about creative stuff like graphic design, so this is why
+          I'm learning front end. I love exploring new ideas and spend my time
+          learning languages, designing, learning historical facts, or whatever
+          sounds interesting to me. I'm always curious, so every time I see a
+          new skill that I like, I try to learn it — that's why I'm here.
+        </p>
+      </div>
+    </section>
+    <hr />
+
+    <!-- Social Media Section -->
+    <h2 class="socialtext" data-i18n="social.title">Social Media</h2>
+    <section class="social" id="mysocials">
+      <a href="https://www.twitch.tv/ttvpsslayer" target="_blank">
+        <img src="images/icons/twitch.png" alt="twitch" />
+      </a>
+      <a
+        href="https://steamcommunity.com/profiles/76561198965315166/"
+        target="_blank"
+      >
+        <img src="images/icons/steam1.png" alt="steam account1" />
+      </a>
+      <a href="https://www.youtube.com/@psslayer1" target="_blank">
+        <img src="images/icons/2/youtube.png" alt="youtube" />
+      </a>
+      <a
+        href="https://steamcommunity.com/profiles/76561199381079594"
+        target="_blank"
+      >
+        <img src="images/icons/steam2.png" alt="steam account2" />
+      </a>
+      <a href="https://discord.gg/ne4hkdUsAK" target="_blank">
+        <img src="images/icons/2/discord.png" alt="discord" />
+      </a>
+    </section>
+    <hr />
+
+    <!-- Hobbies Section -->
+    <h2 class="hobbies" id="interests" data-i18n="hobbies.title">My Hobbies</h2>
+    <div class="graphics-section">
+      <div class="graphics-card logo-card">
+        <img
+          src="images/icons/graphics.png"
+          alt="Graphics Icon"
+          class="graphics-icon"
+        />
+        <div class="graphics-thumbnails">
+          <div class="graphics-item">
+            <img src="images/icons/veronika.png" alt="veronika" />
+            <div class="graphics-info">
+              <p data-i18n="graphics.v1.platform">platform: discord</p>
+              <p data-i18n="graphics.v1.reason">
+                Why I made it: i had a server on discord
+              </p>
+            </div>
+          </div>
+          <div class="graphics-item">
+            <img src="images/icons/psslayer.png" alt="psslayer" />
+            <div class="graphics-info">
+              <p data-i18n="graphics.v2.platform">platform: youtube</p>
+              <p data-i18n="graphics.v2.reason">
+                Why I made it: i wanted to start a YouTube channel
+              </p>
+            </div>
+          </div>
+          <div class="graphics-item">
+            <img src="images/icons/random.png" alt="random designs" />
+            <div class="graphics-info">
+              <p data-i18n="graphics.v3.platform">platform: all</p>
+              <p data-i18n="graphics.v3.reason">
+                Why I made it: these are just random
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tools Section -->
+    <div class="tools-section">
+      <h3 class="tools-title">Tools</h3>
+      <div class="tools-grid">
+        <div class="tool-card" data-skill="HTML5" data-level="30">
+          <img
+            src="images/icons/tools/html.png"
+            alt="HTML5 Logo"
+            class="tool-img"
+          />
+          <span>HTML5</span>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+
+        <div class="tool-card" data-skill="CSS3" data-level="25">
+          <img
+            src="images/icons/tools/css.png"
+            alt="CSS3 Logo"
+            class="tool-img"
+          />
+          <span>CSS3</span>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+
+        <div class="tool-card" data-skill="Photoshop" data-level="95">
+          <img
+            src="images/icons/tools/photoshop.png"
+            alt="Photoshop Logo"
+            class="tool-img"
+          />
+          <span>Photoshop</span>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+
+        <div class="tool-card" data-skill="illustrator" data-level="85">
+          <img
+            src="images/icons/tools/illustrator.png"
+            alt="illustrator Logo"
+            class="tool-img"
+          />
+          <span>illustrator</span>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+
+        <div class="tool-card" data-skill="godot" data-level="10">
+          <img
+            src="images/icons/tools/godot.png"
+            alt="godot Logo"
+            class="tool-img"
+          />
+          <span>godot</span>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+
+        <!-- Add more skills similarly -->
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="langToggle.js"></script>
+    <script src="logoSwap.js"></script>
+    <script src="modeToggle.js"></script>
+    <script src="particles.js"></script>
+    <script src="toolSkills.js"></script>
+  </body>
+</html>
